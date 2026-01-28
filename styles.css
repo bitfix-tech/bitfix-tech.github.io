@@ -632,3 +632,58 @@ a {
 .reveal-zoom {
   transform: scale(0.96);
 }
+
+/* ================= SCROLL TO TOP (DESKTOP ONLY) ================= */
+
+#scrollTopBtn {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+
+  background: var(--accent-primary);
+  color: #040f16;
+
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 18px;
+
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(12px);
+
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+
+  z-index: 999;
+}
+
+/* Visible */
+#scrollTopBtn.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+#scrollTopBtn:hover {
+  transform: translateY(-2px);
+}
+
+#scrollTopBtn:active {
+  transform: scale(0.96);
+}
+
+@media (max-width: 768px) {
+  #scrollTopBtn {
+    display: none;
+  }
+}
