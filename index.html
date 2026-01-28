@@ -10,7 +10,6 @@
       sizes="16x16"
       href="assets/favicon-16x16.png"
     />
-
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,12 +17,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -32,22 +29,25 @@
     <header class="header">
       <div class="container header-inner">
         <a href="#" class="logo">Bitfix</a>
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
 
         <nav class="nav">
           <a href="#servicios">Servicios</a>
           <a href="#proceso">Proceso</a>
           <a href="#proyectos">Proyectos</a>
+          <a
+            href="https://wa.me/543573442707"
+            class="btn btn-primary"
+            target="_blank"
+            ><i class="fa-regular fa-comment-dots"></i> Contactar</a
+          >
         </nav>
-
-        <a
-          href="https://wa.me/543573442707"
-          class="btn btn-primary"
-          target="_blank"
-          ><i class="fa-regular fa-comment-dots"></i> Contactar</a
-        >
       </div>
     </header>
-
     <!-- ================= HERO ================= -->
     <section class="hero">
       <div class="container">
@@ -56,29 +56,25 @@
           empresas que necesitan orden,<br />
           claridad y <span class="accent-secondary">resultados</span>
         </h1>
-
         <p class="hero-text">
           En Bitfix diseñamos y desarrollamos sistemas simples, claros y
           escalables para negocios que hoy funcionan con Excel, sistemas que no
           entienden o procesos desordenados.
         </p>
-
         <a
           href="https://wa.me/543573442707"
           class="btn btn-accent btn-whatsapp"
           target="_blank"
         >
-          <i class="fa-regular fa-comment-dots"></i>
-          Contanos tu idea por WhatsApp
+          <i class="fa-regular fa-comment-dots"></i> Contanos tu idea por
+          WhatsApp
         </a>
-
         <a href="#problem" class="scroll-indicator">
           <span class="scroll-text">Conocé más</span>
           <span class="arrow">↓</span>
         </a>
       </div>
     </section>
-
     <!-- ================= PROBLEMA ================= -->
     <section id="problem" class="problem">
       <div class="container problem-grid">
@@ -87,14 +83,12 @@
           tecnología, es usar la<br />
           <span class="accent-wrong">incorrecta</span>
         </h2>
-
         <div class="problem-text">
           <p>
             Muchas empresas trabajan con herramientas que no se adaptan a su
             realidad: Excel para todo, sistemas que nadie entiende o soluciones
             genéricas que generan más caos que orden.
           </p>
-
           <p class="highlight">
             En Bitfix desarrollamos <strong>software a medida</strong>, pensado
             para cómo funciona tu negocio hoy y para cómo necesitás que funcione
@@ -103,12 +97,10 @@
         </div>
       </div>
     </section>
-
     <!-- ================= QUE HACEMOS ================= -->
     <section id="servicios" class="services">
       <div class="container">
         <h2 class="section-title">Qué hacemos</h2>
-
         <div class="cards-grid">
           <div class="card">
             <i class="fa-solid fa-layer-group card-icon"></i>
@@ -118,7 +110,6 @@
               livianos y soluciones específicas para cada negocio.
             </p>
           </div>
-
           <div class="card">
             <i class="fa-solid fa-diagram-project card-icon"></i>
             <h3>Automatizaciones</h3>
@@ -127,7 +118,6 @@
               flujos, mensajes, registros y tareas repetitivas.
             </p>
           </div>
-
           <div class="card">
             <i class="fa-solid fa-code card-icon"></i>
             <h3>Desarrollo Fullstack</h3>
@@ -136,7 +126,6 @@
               un sistema real, no partes sueltas.
             </p>
           </div>
-
           <div class="card">
             <i class="fa-solid fa-server card-icon"></i>
             <h3>Hosting y mantenimiento</h3>
@@ -148,12 +137,10 @@
         </div>
       </div>
     </section>
-
     <!-- ================= PROCESO ================= -->
     <section id="proceso" class="process">
       <div class="container">
         <h2 class="section-title">Nuestro proceso</h2>
-
         <div class="process-steps">
           <div class="step">
             <span class="step-number">01</span>
@@ -163,13 +150,11 @@
               hoy.
             </p>
           </div>
-
           <div class="step">
             <span class="step-number">02</span>
             <h3>Propuesta clara</h3>
             <p>Definimos qué se va a construir, tiempos y alcance.</p>
           </div>
-
           <div class="step">
             <span class="step-number">03</span>
             <h3>Desarrollo rápido y enfocado</h3>
@@ -178,7 +163,6 @@
               burocracia.
             </p>
           </div>
-
           <div class="step">
             <span class="step-number">04</span>
             <h3>Entrega + acompañamiento</h3>
@@ -189,12 +173,10 @@
         </div>
       </div>
     </section>
-
     <!-- ================= POR QUE BITFIX ================= -->
     <section class="why">
       <div class="container why-grid">
         <h2 class="section-title left">Por qué Bitfix</h2>
-
         <ul class="checklist">
           <li>Equipo chico, atención total a cada proyecto</li>
           <li>Comunicación clara, sin vueltas técnicas innecesarias</li>
@@ -206,18 +188,15 @@
         </ul>
       </div>
     </section>
-
     <!-- ================= EXPERIENCIA ================= -->
     <section id="proyectos" class="experience">
       <div class="container">
         <h2 class="section-title">Experiencia real</h2>
-
         <p class="section-description">
           Trabajamos con clientes reales y también desarrollamos proyectos
           propios y demos funcionales. Sistemas internos, automatizaciones,
           plataformas web y soluciones a medida para distintos rubros.
         </p>
-
         <div class="cards-grid experience-grid">
           <!-- Nightclub -->
           <div class="card experience-card">
@@ -230,7 +209,6 @@
             <h3>Sistema web de gestión Nightclub</h3>
             <p>Plataforma web</p>
           </div>
-
           <!-- Restaurante -->
           <div class="card experience-card">
             <div class="experience-image">
@@ -242,7 +220,6 @@
             <h3>Sistema web de gestión y ecommerce de restaurante</h3>
             <p>Plataforma web</p>
           </div>
-
           <!-- n8n -->
           <div class="card experience-card">
             <div class="experience-image">
@@ -251,7 +228,6 @@
             <h3>Automatización de procesos</h3>
             <p>n8n + integraciones</p>
           </div>
-
           <!-- Más proyectos -->
           <div class="card experience-card experience-more">
             <i class="fa-solid fa-ellipsis card-icon"></i>
@@ -261,32 +237,26 @@
         </div>
       </div>
     </section>
-
     <!-- ================= TECNOLOGIAS ================= -->
     <section class="tech">
       <div class="container">
         <h2 class="section-title">Tecnologías que usamos</h2>
-
         <div class="tech-list">
-          <span>Frontend moderno</span>
-          <span>Backends robustos</span>
+          <span>Frontend moderno</span> <span>Backends robustos</span>
           <span>Automatizaciones (n8n)</span>
           <span>Bases de datos relacionales</span>
           <span>Deploy y hosting incluidos</span>
         </div>
       </div>
     </section>
-
     <!-- ================= CTA ================= -->
     <section class="cta">
       <div class="container">
         <h2>¿Tenés una idea o un problema que resolver?</h2>
-
         <p>
           Contanos qué necesitás y vemos juntos cómo convertirlo en un sistema
           claro y funcional.
         </p>
-
         <a
           href="https://wa.me/543573442707"
           class="btn btn-primary"
@@ -296,7 +266,6 @@
         </a>
       </div>
     </section>
-
     <!-- ================= FOOTER ================= -->
     <footer class="footer">
       <div class="container footer-inner">
@@ -304,14 +273,16 @@
           <strong>Bitfix</strong> <br />
           <p>Desarrollo de software a medida</p>
         </div>
-
-        <a href="https://wa.me/543573442707" class="footer-link" target="_blank"
-          ><br />
+        <a
+          href="https://wa.me/543573442707"
+          class="footer-link"
+          target="_blank"
+        >
           Contacto por WhatsApp
         </a>
-
-        <span class="footer-meta"><br />Argentina · Proyectos globales</span>
+        <span class="footer-meta">Argentina · Proyectos globales</span>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
